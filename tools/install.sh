@@ -23,5 +23,6 @@ yarn global add create-react-app
 yarn global add create-react-native-app
 yarn global add firebase-tools
 yarn global add create-react-app
+yarn global add @storybook/cli
 
 echo "Setup Complete"
