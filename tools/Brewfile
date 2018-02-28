@@ -10,6 +10,10 @@ brew 'git'
 cask 'discord'
 cask 'istat-menus'
 cask 'google-chrome'
+cask 'google-trends'
+# cask "cyberduck"
+# cask "hyper"
+# cask "gifcapture"
 cask 'bartender'
 cask 'spotify'
 cask 'backblaze'
@@ -32,6 +36,7 @@ mas "Contrast", id: 1254981365
 
 # Developer
 brew 'emojify'
+brew 'yarn'
 cask 'atom'
 cask 'docker'
 mas 'Xcode', id: 497799835
