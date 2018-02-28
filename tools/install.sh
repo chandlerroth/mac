@@ -25,4 +25,9 @@ yarn global add firebase-tools
 yarn global add create-react-app
 yarn global add @storybook/cli
 
+apm install atom-beautify
+apm install teletype
+apm install file-icons
+apm install highlight-selected
+
 echo "Setup Complete"
