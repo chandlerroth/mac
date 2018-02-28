@@ -2,29 +2,36 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 tap 'caskroom/cask'
+tap 'caskroom/fonts'
 tap 'homebrew/services'
 
+# Base
 brew 'git'
-
-cask 'google-chrome'
-cask 'firefox'
-cask 'atom'
-cask '1password'
-cask 'adobe-creative-cloud'
-cask 'sketch'
-cask 'unity-download-assistant'
-cask 'spotify'
-cask 'slack'
 cask 'discord'
-cask 'minecraft'
-cask 'google-drive-file-stream'
-cask 'bartender'
-cask 'skyfonts'
-cask 'harvest'
-cask 'rescuetime'
-cask 'vlc'
-cask 'docker'
 cask 'istat-menus'
+cask 'google-chrome'
+cask 'bartender'
+cask 'spotify'
 cask 'backblaze'
-cask 'backblaze-downloader'
+cask 'google-drive-file-stream'
+cask 'vlc'
+mas '1Password', id: 443987910
+mas 'Slack', id: 803453959
+mas 'Things', id: 904280696
+mas 'Bear', id: 1091189122
+mas 'Magnet', id: 441258766
+mas 'Harvest', id: 506189836
+
+# Designer
+cask 'adobe-creative-cloud'
+cask 'skyfonts'
+cask 'sketch'
 cash 'sketchup'
+cask 'unity-download-assistant'
+mas "Contrast", id: 1254981365
+
+# Developer
+brew 'emojify'
+cask 'atom'
+cask 'docker'
+mas 'Xcode', id: 497799835
