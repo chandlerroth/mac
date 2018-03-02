@@ -7,6 +7,7 @@ tap 'homebrew/services'
 
 # Base
 brew 'git'
+brew 'mas'
 cask 'discord'
 cask 'istat-menus'
 cask 'google-chrome'
