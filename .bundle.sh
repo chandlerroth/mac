@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git fetch
+(cd ~; git fetch)
 
 # "Edit" command
 if [[ $1 = 'e' ]] || [[ $1 = 'edit' ]]; then
@@ -39,12 +39,12 @@ brew bundle --cleanup --global
 if [[ -f "~/Projects" ]]; then
     printf "\n"
     echo "Setting up Projects directory...\n"
-    mkdir Projects
+    mkdir ~/Projects
 fi
 
-if ! [[ -z "$(git status --porcelain)" ]]; then 
+if ! [[ -z "$(cd ~; git status --porcelain)" ]]; then 
   printf "\n"
-  git status
+  (cd ~; git status)
   printf "\n"
   echo "Warning: You need to sync your home directory!"
 fi
