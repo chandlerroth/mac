@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "c92560f80fb7e8fe409708ac111cea8ab2986a38"
+        "revision": "58daf762edd143785a634924154c263ff81596d8"
       }
     },
     "brew": {
@@ -287,6 +287,15 @@
         "version": "5.4.58903.1122,alias",
         "options": {
           "full_name": "zoomus",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "1password": {
+        "version": "7.7",
+        "options": {
+          "full_name": "1password",
           "args": {
             "appdir": "/Applications"
           }

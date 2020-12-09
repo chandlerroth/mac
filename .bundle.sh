@@ -2,22 +2,26 @@
 
 # Install Oh My Zsh
 if ! [ $SHELL = '/bin/zsh' ]; then
-    echo "Installing Oh My Zsh..."
+    printf "Installing Oh My Zsh...\n"
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
 # Install Homebrew
 if ! [ -x "$(command -v brew)" ]; then
-    echo "Installing Homebrew..."
+    printf "Installing Homebrew...\n"
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
+printf "Updating Homebrew...\n"
 brew update
+
+printf "\n"
+printf "Installing Homebrew apps...\n"
 brew bundle
 
-if [ -z "$(git status --porcelain)" ]; then 
-  echo "You're all fresh!"
-else 
+if ! [ -z "$(git status --porcelain)" ]; then 
+  printf "\n"
   git status
-  echo "You need to sync your home directory!"
+  printf "\n"
+  echo "Warning: You need to sync your home directory!"
 fi
