@@ -309,6 +309,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "react-native-debugger": {
+        "version": "0.11.5",
+        "options": {
+          "full_name": "react-native-debugger",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
