@@ -1,5 +1,8 @@
 #!/bin/bash
 
+printf "Checking for Mac update...\n"
+git fetch
+
 # Install Oh My Zsh
 if ! [ $SHELL = '/bin/zsh' ]; then
     printf "Installing Oh My Zsh...\n"
@@ -12,6 +15,7 @@ if ! [ -x "$(command -v brew)" ]; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
+printf "\n"
 printf "Updating Homebrew...\n"
 brew update
 
