@@ -1,7 +1,9 @@
 #!/bin/bash
 
-printf "Checking for Mac update...\n"
 git fetch
+
+printf "Checking for Mac update...\n"
+softwareupdate -l
 
 # Install Oh My Zsh
 if ! [ $SHELL = '/bin/zsh' ]; then
