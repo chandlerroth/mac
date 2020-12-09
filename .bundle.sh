@@ -4,11 +4,11 @@ git fetch
 
 # "Edit" command
 if [[ $1 = 'e' ]] || [[ $1 = 'edit' ]]; then
-    echo "Opening ~/Brewfile ..."
+    echo "Opening ~/.Brewfile ..."
     if [ -x "$(command -v code)" ]; then
-        code ~/Brewfile
+        code ~/.Brewfile
     else
-        vi ~/Brewfile
+        vi ~/.Brewfile
     fi
     exit 0
 fi
