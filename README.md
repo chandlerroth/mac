@@ -39,5 +39,4 @@ For subsequent installs or updates, run `mac` anywhere.
 - Visit https://nodejs.org/ to find the LTS version
 - Run `nodenv install [lts]`
 - Run `nodenv global [lts]`
-
-### 
+- Run `ln -s $(which node) /usr/local/bin/node` to link nodenv to the system
