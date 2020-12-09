@@ -3,5 +3,6 @@
 !.gitconfig
 !.zshrc
 !.bundle.sh
+!.install.sh
 !Brewfile
 !Brewfile.lock.json
