@@ -23,7 +23,7 @@ brew update
 
 printf "\n"
 printf "Installing Homebrew apps...\n"
-brew bundle
+brew bundle --cleanup
 
 if [ -f "~/Projects" ]; then
     printf "\n"
