@@ -20,7 +20,6 @@ cask "postman"
 cask "protonmail-bridge"
 cask "signal"
 cask "skyfonts"
-cask "spotify"
 cask "visual-studio-code"
 cask "zoomus"
 mas "Bear", id: 1091189122

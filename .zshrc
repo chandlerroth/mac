@@ -12,4 +12,6 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+alias mac=~/.bundle.sh
+alias "mac-install"="code ~/Brewfile"
 alias dc="docker-compose"
