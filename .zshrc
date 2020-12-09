@@ -1,5 +1,5 @@
-export ZSH="/Users/chandlerroth/.oh-my-zsh"
-export PATH="$PATH:/Users/chandlerroth/.dotnet/tools"
+export ZSH="/Users/$(whoami)/.oh-my-zsh"
+export PATH="$PATH:/Users/$(whoami)/.dotnet/tools"
 export PATH=~/Library/Android/sdk/tools:$PATH
 export PATH=~/Library/Android/sdk/platform-tools:$PATH
 
