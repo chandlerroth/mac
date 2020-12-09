@@ -1,2 +1,3 @@
-# mac
+# Mac
+
 A fresh macOS install

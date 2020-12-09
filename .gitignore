@@ -1,4 +1,7 @@
 *
 !.gitignore
+!.gitconfig
+!.zshrc
+!bundle.sh
 !Brewfile
 !Brewfile.lock.json
