@@ -8,6 +8,36 @@ First, make sure you are logged in to iCloud and the App Store. Then run:
 
 For subsequent installs or updates, run `mac` anywhere.
 
-To turn off Oh My Zsh git-prompt for the home directory, run:
+## Configure
 
-`git config oh-my-zsh.hide-status 1`
+### Oh My Zsh
+
+- Run `git config oh-my-zsh.hide-status 1` to turn off Oh My Zsh git-prompt for the home directory
+
+### aws
+
+- Run `aws configure` to setup AWS
+
+### gh
+
+- Run `gh auth login`
+
+### rbenv
+
+- Visit https://www.ruby-lang.org/ to find the LTS version
+- Run `rbenv install [lts]`
+- Run `rbenv global [lts]`
+
+### pyenv
+
+- Visit https://www.python.org/ to find the LTS version
+- Run `pyenv install [lts]`
+- Run `pyenv global [lts]`
+
+### nodenv
+
+- Visit https://nodejs.org/ to find the LTS version
+- Run `nodenv install [lts]`
+- Run `nodenv global [lts]`
+
+### 

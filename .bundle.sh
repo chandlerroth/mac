@@ -23,6 +23,12 @@ printf "\n"
 printf "Installing Homebrew apps...\n"
 brew bundle
 
+if [ -f "~/Projects" ]; then
+    printf "\n"
+    echo "Setting up Projects directory...\n"
+    mkdir Projects
+fi
+
 if ! [ -z "$(git status --porcelain)" ]; then 
   printf "\n"
   git status
