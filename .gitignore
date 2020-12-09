@@ -4,5 +4,6 @@
 !.zshrc
 !.bundle.sh
 !.install.sh
-!Brewfile
-!Brewfile.lock.json
+!.Brewfile
+!.Brewfile.lock.json
+!README.md

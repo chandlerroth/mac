@@ -8,6 +8,10 @@ First, make sure you are logged in to iCloud and the App Store. Then run:
 
 For subsequent installs or updates, run `mac` anywhere.
 
+## Edit
+
+- Run `mac edit` or `mac e` to edit the Brewfile
+
 ## Configure
 
 ### Oh My Zsh
