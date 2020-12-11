@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "ac5e7ac676826c3f2ec49ab0795d6116568c3c48"
+        "revision": "335e396c29f3decc7da82ea716060e49c7fe69b4"
       }
     },
     "brew": {
@@ -314,6 +314,15 @@
         "version": "0.11.5",
         "options": {
           "full_name": "react-native-debugger",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "adoptopenjdk8": {
+        "version": "8,275:b01",
+        "options": {
+          "full_name": "adoptopenjdk/openjdk/adoptopenjdk8",
           "args": {
             "appdir": "/Applications"
           }
