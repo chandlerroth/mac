@@ -2,27 +2,27 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "335e396c29f3decc7da82ea716060e49c7fe69b4"
+        "revision": "a76c80090296b6bd30b00dbdbb289935e9aadba0"
       }
     },
     "brew": {
       "awscli": {
-        "version": "2.1.9",
+        "version": "2.1.10",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.9.big_sur.bottle.tar.gz",
-              "sha256": "a17966e0c24ed94580e4fbf5fd2adc9b87134a8473785e1b6bbea6253fbff648"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.10.big_sur.bottle.tar.gz",
+              "sha256": "1e03d7d41774b64b07b68a69078953881b8160cda68b8f220249fa21aed9a975"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.9.catalina.bottle.tar.gz",
-              "sha256": "d387f4cb2a7dc024ef3a2b9aea03977a52497e5d254dd0408a810ff9443674c6"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.10.catalina.bottle.tar.gz",
+              "sha256": "7ac4169f952fa635d8aa54933b07a711809379f1feb879558ee883dfaec6b9a2"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.9.mojave.bottle.tar.gz",
-              "sha256": "549c21d494ff4f09e71d247cc9cc02a3bc78755537627856a146079ba4bc426f"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.10.mojave.bottle.tar.gz",
+              "sha256": "2ec558c122eaf83cd7a7110ee63d937db6ef77752a7ac65079e0951cda48ab29"
             }
           }
         }
@@ -49,26 +49,22 @@
         }
       },
       "git-lfs": {
-        "version": "2.12.1",
+        "version": "2.13.1",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/git-lfs-2.12.1.big_sur.bottle.tar.gz",
-              "sha256": "d258fd1e12337ddc58f8d9a23af8a631096248471a75bc6c8ae10b3994b9095c"
+              "url": "https://homebrew.bintray.com/bottles/git-lfs-2.13.1.big_sur.bottle.tar.gz",
+              "sha256": "ebc56da970278c2f7fd44a73d855c8bdbbb27ecb3526b0e44e59124301300b0b"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/git-lfs-2.12.1.catalina.bottle.tar.gz",
-              "sha256": "d179461dff4a07c40e0b54078f56a5e46edcc6966708726a9b17c159981eef35"
+              "url": "https://homebrew.bintray.com/bottles/git-lfs-2.13.1.catalina.bottle.tar.gz",
+              "sha256": "069c9abf9aae2690f9f30ddea080d21aeb78e8cecbceee843d8eefe6e2248551"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/git-lfs-2.12.1.mojave.bottle.tar.gz",
-              "sha256": "562551db4c901b4227ab55ceef73d39a01c2227961bf3657975e991898000288"
-            },
-            "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/git-lfs-2.12.1.high_sierra.bottle.tar.gz",
-              "sha256": "4705b3adb23213242e7df1a27e948b85ba2d8fa5ea15743b4d63482a07ed732e"
+              "url": "https://homebrew.bintray.com/bottles/git-lfs-2.13.1.mojave.bottle.tar.gz",
+              "sha256": "a9d3e9326f96e0684eaed9fd9fd992dd9ad9f8e1ff01630d9c73ababe72b654f"
             }
           }
         }
@@ -362,7 +358,7 @@
       },
       "Transmit": {
         "id": "1436522307",
-        "version": "5.7.0"
+        "version": "5.7.1"
       },
       "Ulysses": {
         "id": "1225570693",
@@ -379,7 +375,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "2.6.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "baf6aab591e0db6d411bcde7949b89f8835dfec1",
+        "Homebrew/homebrew-core": "3b02fed116664ce7760b5a782cae3b8fb050da0c",
         "CLT": "12.2.0.0.1.1604076827",
         "Xcode": "12.2",
         "macOS": "11.0.1"
