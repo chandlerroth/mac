@@ -16,7 +16,7 @@ For subsequent installs or updates, run `mac` anywhere.
 
 ### Oh My Zsh
 
-- Run `git config oh-my-zsh.hide-status 1` to turn off Oh My Zsh git-prompt for the home directory
+- Run `git config oh-my-zsh.hide-info 1` to turn off Oh My Zsh git-prompt for the home directory
 
 ### aws
 
