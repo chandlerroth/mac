@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "e183e913695c0171a9d6cdaafa1389f5c2b0b394"
+        "revision": "684b5bdfe263db9ea5b7d6afab513f69dc780835"
       }
     },
     "brew": {
@@ -383,6 +383,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "dotnet-sdk": {
+        "version": "5.0.101,0a7fa783-02e1-4785-b7b1-3c430f8825dc:764e53ff2f5722bc1b8bbc178fe25930",
+        "options": {
+          "full_name": "dotnet-sdk",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
@@ -435,7 +444,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "2.7.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "f73a1445af8eebb099b7a053c20d293e6c7b21db",
+        "Homebrew/homebrew-core": "d6a8959b6b7814fe3b3f68505ba5039bc3d1f28d",
         "CLT": "",
         "Xcode": "12.3",
         "macOS": "11.1"
