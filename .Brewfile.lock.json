@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "535d700fffeda6020626ed2c41bd5737bbd2ec3c"
+        "revision": "e183e913695c0171a9d6cdaafa1389f5c2b0b394"
       }
     },
     "brew": {
@@ -374,6 +374,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "loom": {
+        "version": "0.63.1",
+        "options": {
+          "full_name": "loom",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
@@ -426,7 +435,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "2.7.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "e63bd3d3e763427ad92ab3474a9bae42ae4d14bf",
+        "Homebrew/homebrew-core": "f73a1445af8eebb099b7a053c20d293e6c7b21db",
         "CLT": "",
         "Xcode": "12.3",
         "macOS": "11.1"
