@@ -31,6 +31,7 @@ cask "zoomus"
 mas "Bear", id: 1091189122
 mas "Clean My Mac", id: 1339170533
 mas "Contrast", id: 1254981365
+mas "Deliveries", id: 290986013
 mas "Harvest", id: 506189836
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
