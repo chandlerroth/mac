@@ -29,7 +29,6 @@ cask "ultimaker-cura"
 cask "visual-studio-code"
 cask "zoomus"
 mas "Bear", id: 1091189122
-mas "Clean My Mac", id: 1339170533
 mas "Contrast", id: 1254981365
 mas "Deliveries", id: 290986013
 mas "Harvest", id: 506189836
