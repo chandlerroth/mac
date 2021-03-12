@@ -30,7 +30,6 @@ mas "Bear", id: 1091189122
 mas "Harvest", id: 506189836
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "NordVPN", id: 1116599239
 mas "Slack", id: 803453959
 mas "Things", id: 904280696
 mas "Transmit", id: 1436522307
