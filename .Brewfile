@@ -3,7 +3,6 @@ cask_args appdir: "/Applications"
 
 brew "awscli"
 brew "git-lfs"
-brew "mackup"
 brew "nodenv"
 brew "postgresql"
 brew "pyenv"
