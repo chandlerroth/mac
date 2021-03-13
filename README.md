@@ -22,10 +22,6 @@ For subsequent installs or updates, run `mac` anywhere.
 
 - Run `aws configure` to setup AWS
 
-### gh
-
-- Run `gh auth login`
-
 ### rbenv
 
 - Visit https://www.ruby-lang.org/ to find the LTS version
