@@ -6,7 +6,7 @@ brew "nodenv"
 brew "pyenv"
 brew "rbenv"
 cask "dotnet-sdk"
-# cask "docker" # waiting for M1 support
+cask "docker" # waiting for M1 support
 
 # Tooling
 brew "awscli"

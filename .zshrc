@@ -1,5 +1,6 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+export ZSH_DISABLE_COMPFIX=true
 export ZSH="/Users/$(whoami)/.oh-my-zsh"
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
