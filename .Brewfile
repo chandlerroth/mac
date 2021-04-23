@@ -5,8 +5,9 @@ cask_args appdir: "/Applications"
 brew "nodenv"
 brew "pyenv"
 brew "rbenv"
-cask "dotnet-sdk"
-cask "docker" # waiting for M1 support
+brew "goenv"
+cask "dotnet-sdk" # requires rosetta installed
+cask "docker"
 
 # Tooling
 brew "awscli"
