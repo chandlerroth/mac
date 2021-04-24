@@ -36,6 +36,12 @@ printf "\n"
 printf "Installing Homebrew apps...\n"
 brew bundle --cleanup --global
 
+if [[ $1 = 'u' ]] || [[ $1 = 'upgrade' ]]; then
+    printf "\n"
+    printf "Upgrading Homebrew apps...\n"
+    brew upgrade
+fi
+
 if [[ -f "~/Projects" ]]; then
     printf "\n"
     echo "Setting up Projects directory...\n"
