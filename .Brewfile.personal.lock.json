@@ -267,6 +267,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "nordvpn": {
+        "version": "6.2.0,160",
+        "options": {
+          "full_name": "nordvpn",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
