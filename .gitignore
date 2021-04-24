@@ -6,4 +6,6 @@
 !.install.sh
 !.Brewfile
 !.Brewfile.lock.json
+!.Brewfile.personal
+!.Brewfile.personal.lock.json
 !README.md

@@ -1,4 +1,10 @@
-eval "$(/opt/homebrew/bin/brew shellenv)"
+if [[ $(arch) = "arm64" ]]; then
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
+
+if [[ -s ".env" ]]; then
+    export $(echo -e $(cat .env))
+fi
 
 export ZSH_DISABLE_COMPFIX=true
 export ZSH="/Users/$(whoami)/.oh-my-zsh"

@@ -2,13 +2,19 @@
 
 (cd ~; git fetch)
 
+if ! [[ $BREWFILE ]]; then
+    export BREWFILE="~/.Brewfile"
+fi
+
+echo "Using $BREWFILE for Homebrew"
+
 # "Edit" command
 if [[ $1 = 'e' ]] || [[ $1 = 'edit' ]]; then
-    echo "Opening ~/.Brewfile ..."
+    echo "Opening $BREWFILE..."
     if [ -x "$(command -v code)" ]; then
-        code ~/.Brewfile
+        code $BREWFILE
     else
-        vi ~/.Brewfile
+        vi $BREWFILE
     fi
     exit 0
 fi
@@ -34,7 +40,7 @@ brew update
 
 printf "\n"
 printf "Installing Homebrew apps...\n"
-brew bundle --cleanup --global
+brew bundle --cleanup --file $BREWFILE
 
 if [[ $1 = 'u' ]] || [[ $1 = 'upgrade' ]]; then
     printf "\n"
