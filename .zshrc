@@ -18,5 +18,5 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-alias mac=~/.bundle.sh
+alias gms=~/.bundle.sh
 alias dc="docker-compose"
