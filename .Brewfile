@@ -18,6 +18,7 @@ cask "android-studio"
 cask "dbeaver-community"
 cask "visual-studio-code"
 cask "postman"
+cask "figma"
 mas "Transmit", id: 1436522307
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Xcode", id: 497799835

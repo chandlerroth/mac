@@ -285,6 +285,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "figma": {
+        "version": "97.7.0",
+        "options": {
+          "full_name": "figma",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
