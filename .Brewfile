@@ -10,6 +10,7 @@ cask "dotnet-sdk" # requires rosetta installed
 cask "docker"
 
 # Tooling
+brew "mas"
 brew "awscli"
 brew "terraform"
 brew "git-lfs"

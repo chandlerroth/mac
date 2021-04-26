@@ -36,16 +36,16 @@ fi
 
 printf "\n"
 printf "Updating Homebrew...\n"
-brew update
+brew update --verbose
 
 printf "\n"
 printf "Installing Homebrew apps...\n"
-brew bundle --cleanup --file $BREWFILE
+brew bundle --verbose --cleanup --file $BREWFILE
 
 if [[ $1 = 'u' ]] || [[ $1 = 'upgrade' ]]; then
     printf "\n"
     printf "Upgrading Homebrew apps...\n"
-    brew upgrade
+    brew upgrade --verbose
 fi
 
 if [[ -f "~/Projects" ]]; then
