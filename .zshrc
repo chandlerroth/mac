@@ -12,10 +12,6 @@ ZSH_THEME="robbyrussell"
 plugins=(git web-search)
 source $ZSH/oh-my-zsh.sh
 
-export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-bindkey '\t' autosuggest-accept
-
 eval "$(nodenv init -)"
 eval "$(pyenv init -)"
 eval "$(rbenv init -)"
