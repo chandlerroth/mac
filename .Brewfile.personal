@@ -30,5 +30,6 @@ mas "Things", id: 904280696
 # Other
 brew "zsh-autosuggestions"
 cask "nordvpn"
+cask "protonmail-bridge"
 cask "spotify"
 mas "Magnet", id: 441258766
