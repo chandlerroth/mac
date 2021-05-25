@@ -1,4 +1,4 @@
-if [[ -s ".env" ]]; then
+if [[ -s "~/.env" ]]; then
     export $(echo -e $(cat .env))
 fi
 
