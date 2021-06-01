@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "a6a9ee2f21ae7ddca455a5ad6ae145145c453df6"
+        "revision": "ef3f921859516d4adbc135ff40a970f295007d93"
       }
     },
     "brew": {
@@ -231,6 +231,35 @@
             }
           }
         }
+      },
+      "postgres": {
+        "version": "13.3",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/postgresql/blobs/sha256:7c0e1b76d60b428facd521c729323221712d7f6d9954e21da389aeeb2c62348e",
+              "sha256": "7c0e1b76d60b428facd521c729323221712d7f6d9954e21da389aeeb2c62348e"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/postgresql/blobs/sha256:eaf28965ead970ecfb327b121ec6a07f0a4e39865797a1a0383605a17e5911e3",
+              "sha256": "eaf28965ead970ecfb327b121ec6a07f0a4e39865797a1a0383605a17e5911e3"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/postgresql/blobs/sha256:74e946503c73cd0efc55ad4b373efbd8f4fb8a9e26a670b878c6db25794aea4a",
+              "sha256": "74e946503c73cd0efc55ad4b373efbd8f4fb8a9e26a670b878c6db25794aea4a"
+            },
+            "mojave": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/postgresql/blobs/sha256:36c7bde4788571e5b66ffe05b6174b62c69781d61c53c3ebcd9d278e8f148197",
+              "sha256": "36c7bde4788571e5b66ffe05b6174b62c69781d61c53c3ebcd9d278e8f148197"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -298,7 +327,7 @@
         }
       },
       "spotify": {
-        "version": "1.1.59.714.g7e040462,1.1.59.714.g7e040462-44",
+        "version": "1.1.60.668.gff09d345,1.1.60.668.gff09d345-7",
         "options": {
           "full_name": "spotify",
           "args": {
@@ -362,10 +391,10 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.1.9",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "8f9b74041db751b8bd7b54f83b79817c82e2dffd",
-        "CLT": "12.4.0.0.1.1610135815",
+        "Homebrew/homebrew-core": "e4da00729630a1d04ddfa5dd6f544db94b9f29e9",
+        "CLT": "12.5.0.22.9",
         "Xcode": "12.5",
-        "macOS": "11.2.3"
+        "macOS": "11.4"
       }
     }
   }

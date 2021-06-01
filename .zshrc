@@ -1,5 +1,5 @@
 if [[ -s "~/.env" ]]; then
-    export $(echo -e $(cat .env))
+    export $(echo -e $(cat ~/.env))
 fi
 
 if [[ $(arch) = "arm64" ]]; then

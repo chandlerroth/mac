@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "17561967e291039367be1f2b0cc5b26dad8ae39f"
+        "revision": "d62bac256e67d24e2d557285a78f3230ad62e7ae"
       }
     },
     "brew": {
@@ -104,7 +104,7 @@
         }
       },
       "goenv": {
-        "version": "HEAD-d607f71",
+        "version": "1.23.3",
         "bottle": false
       },
       "mas": {
@@ -132,30 +132,30 @@
         }
       },
       "awscli": {
-        "version": "2.2.5",
+        "version": "2.2.7",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "arm64_big_sur": {
               "cellar": ":any",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:ec2037108c787c8f8c8d2c68bed604de8328043b56d9247e7a429f727d455385",
-              "sha256": "ec2037108c787c8f8c8d2c68bed604de8328043b56d9247e7a429f727d455385"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:a4ee6be3e5c069d6cb107cf41ee21cbbad1d5b192dfdbd94ae8c35aef2045342",
+              "sha256": "a4ee6be3e5c069d6cb107cf41ee21cbbad1d5b192dfdbd94ae8c35aef2045342"
             },
             "big_sur": {
               "cellar": "/usr/local/Cellar",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:a7d80cf7dd99d2c3ffa15f512898d8a3c9b3158a412cdaea9090e066fb15841a",
-              "sha256": "a7d80cf7dd99d2c3ffa15f512898d8a3c9b3158a412cdaea9090e066fb15841a"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:7181e6ebbd8aa3cd0a78fffc01adcf7d7c77bfeb8dd8a3b8f48262875681cd31",
+              "sha256": "7181e6ebbd8aa3cd0a78fffc01adcf7d7c77bfeb8dd8a3b8f48262875681cd31"
             },
             "catalina": {
               "cellar": "/usr/local/Cellar",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:942ac0f741cf51bbf6c8fcf6a611a85d92d16d7db3242daa7324d081e4b9976d",
-              "sha256": "942ac0f741cf51bbf6c8fcf6a611a85d92d16d7db3242daa7324d081e4b9976d"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:41e6d1ff84a31903f44347c86b982de0c1bb14212c9b331445d25c09c92550a1",
+              "sha256": "41e6d1ff84a31903f44347c86b982de0c1bb14212c9b331445d25c09c92550a1"
             },
             "mojave": {
               "cellar": "/usr/local/Cellar",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:f7dc250c83789d37747744b4da49180ae87ffe2966bc6ddc136fbd1c0902a5bd",
-              "sha256": "f7dc250c83789d37747744b4da49180ae87ffe2966bc6ddc136fbd1c0902a5bd"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:33fd274e9171aa6684d10cd251553673d9b7249dbdeb520da41100e6ece61f56",
+              "sha256": "33fd274e9171aa6684d10cd251553673d9b7249dbdeb520da41100e6ece61f56"
             }
           }
         }
@@ -250,7 +250,7 @@
     },
     "cask": {
       "dotnet-sdk": {
-        "version": "5.0.203,0ec08464-4049-4184-b52d-ab8c90dc0199:5ebc7047c4461257c746dcf471097ea2",
+        "version": "5.0.300,f79b97b0-b1ec-4251-adf8-1022c527cc13:4372b8911d970486e8f31b0cf2e48d32",
         "options": {
           "full_name": "dotnet-sdk",
           "args": {
@@ -268,7 +268,7 @@
         }
       },
       "brave-browser": {
-        "version": "90.1.24.86,124.86",
+        "version": "91.1.25.68,125.68",
         "options": {
           "full_name": "brave-browser",
           "args": {
@@ -286,7 +286,7 @@
         }
       },
       "dbeaver-community": {
-        "version": "21.0.5",
+        "version": "21.1.0",
         "options": {
           "full_name": "dbeaver-community",
           "args": {
@@ -331,7 +331,7 @@
         }
       },
       "loom": {
-        "version": "0.81.2",
+        "version": "0.84.0",
         "options": {
           "full_name": "loom",
           "args": {
@@ -340,7 +340,7 @@
         }
       },
       "spotify": {
-        "version": "1.1.59.714.g7e040462,1.1.59.714.g7e040462-44",
+        "version": "1.1.60.672.g6ad9c215,1.1.60.672.g6ad9c215-15",
         "options": {
           "full_name": "spotify",
           "args": {
@@ -388,11 +388,11 @@
     "macos": {
       "big_sur": {
         "HOMEBREW_VERSION": "3.1.9",
-        "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "70c30cc5a55029f0c5d774e314005cd68a370030",
-        "CLT": "12.4.0.0.1.1610135815",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "744c282b1510c28a9ddcda535ca61a0311d33a23",
+        "CLT": "12.5.0.22.9",
         "Xcode": "12.5",
-        "macOS": "11.2.3"
+        "macOS": "11.4"
       }
     }
   }
