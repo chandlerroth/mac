@@ -6,3 +6,5 @@
 [user]
 	name = Chandler Roth
 	email = hey@chandlerroth.com
+[pull]
+	rebase = false
