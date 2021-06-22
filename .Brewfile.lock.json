@@ -104,7 +104,7 @@
         }
       },
       "goenv": {
-        "version": "HEAD-d607f71",
+        "version": "1.23.3",
         "bottle": false
       },
       "mas": {
