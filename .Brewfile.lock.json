@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "030b2b6cef7b8ee961a7a0c9ed6077529b683c76"
+        "revision": "7e2061ab8ce1a5117a77b4f908da8d483e25336f"
       }
     },
     "brew": {
@@ -259,7 +259,7 @@
         }
       },
       "docker": {
-        "version": "3.4.0,65384",
+        "version": "3.5.1,66090",
         "options": {
           "full_name": "docker",
           "args": {
@@ -268,7 +268,7 @@
         }
       },
       "brave-browser": {
-        "version": "91.1.25.73,125.73",
+        "version": "1.26.74.0,126.74",
         "options": {
           "full_name": "brave-browser",
           "args": {
@@ -277,7 +277,7 @@
         }
       },
       "android-studio": {
-        "version": "4.2.1.0,202.7351085",
+        "version": "4.2.2.0,202.7486908",
         "options": {
           "full_name": "android-studio",
           "args": {
@@ -286,7 +286,7 @@
         }
       },
       "dbeaver-community": {
-        "version": "21.1.1",
+        "version": "21.1.2",
         "options": {
           "full_name": "dbeaver-community",
           "args": {
@@ -304,7 +304,7 @@
         }
       },
       "postman": {
-        "version": "8.6.2",
+        "version": "8.7.0",
         "options": {
           "full_name": "postman",
           "args": {
@@ -313,7 +313,7 @@
         }
       },
       "figma": {
-        "version": "98.11.0",
+        "version": "99.0.0",
         "options": {
           "full_name": "figma",
           "args": {
@@ -322,7 +322,7 @@
         }
       },
       "zoom": {
-        "version": "5.7.0.446",
+        "version": "5.7.1.499",
         "options": {
           "full_name": "zoom",
           "args": {
@@ -331,7 +331,7 @@
         }
       },
       "loom": {
-        "version": "0.88.0",
+        "version": "0.92.0",
         "options": {
           "full_name": "loom",
           "args": {
@@ -340,7 +340,7 @@
         }
       },
       "spotify": {
-        "version": "1.1.61.583.gad060c66,1.1.61.583.gad060c66-7",
+        "version": "1.1.62.583.gdac868ed,1.1.62.583.gdac868ed-44",
         "options": {
           "full_name": "spotify",
           "args": {
@@ -368,7 +368,7 @@
       },
       "Bear": {
         "id": "1091189122",
-        "version": "1.8.4"
+        "version": "1.8.5"
       },
       "Things": {
         "id": "904280696",
@@ -376,7 +376,7 @@
       },
       "Harvest": {
         "id": "506189836",
-        "version": "2.2.7"
+        "version": "2.2.9"
       },
       "Magnet": {
         "id": "441258766",
@@ -395,9 +395,9 @@
         "macOS": "11.2.3"
       },
       "monterey": {
-        "HOMEBREW_VERSION": "3.2.0",
+        "HOMEBREW_VERSION": "3.2.1",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "0a99c897a1229fb6f2946d85ccf1cb98496dd1cc",
+        "Homebrew/homebrew-core": "e79dd1041473344b26ca67f50927caa3433a7845",
         "CLT": "13.0.0.0.1.1622682579",
         "Xcode": "12.5.1",
         "macOS": "12.0"
