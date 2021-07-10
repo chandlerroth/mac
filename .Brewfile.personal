@@ -6,6 +6,7 @@ brew "nodenv"
 brew "pyenv"
 brew "rbenv"
 brew "goenv"
+cask "adoptopenjdk/openjdk/adoptopenjdk8"
 cask "dotnet-sdk" # requires rosetta installed
 cask "docker"
 
