@@ -5,7 +5,7 @@
 First, make sure you are logged in to iCloud and the App Store. Then run:
 
 ```
-git clone git@github.com:chandlerroth/mac.git; mac/.install.sh
+git clone git@github.com:chandlerroth/mac.git; git config oh-my-zsh.hide-info 1; mac/.install.sh; 
 ```
 
 For subsequent installs or updates, run `mac` anywhere.
@@ -15,10 +15,6 @@ For subsequent installs or updates, run `mac` anywhere.
 - Run `mac edit` or `mac e` to edit the Brewfile
 
 ## Configure
-
-### Oh My Zsh
-
-- Run `git config oh-my-zsh.hide-info 1` to turn off Oh My Zsh git-prompt for the home directory
 
 ### aws
 
