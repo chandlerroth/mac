@@ -23,5 +23,5 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
-alias gms=~/.bundle.sh
+alias mac=~/.bundle.sh
 alias dc="docker-compose"
