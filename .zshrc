@@ -13,6 +13,7 @@ plugins=(git web-search)
 source $ZSH/oh-my-zsh.sh
 
 eval "$(nodenv init -)"
+eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(rbenv init -)"
 eval "$(goenv init -)"

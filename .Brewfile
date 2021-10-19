@@ -39,3 +39,4 @@ mas "Harvest", id: 506189836
 # Other
 cask "spotify"
 mas "Magnet", id: 441258766
+cask "nordvpn"
