@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "4d7a52944e2903a4c3a9a5b5dc7622a0e32204e5"
+        "revision": "876d3165c66645fc2ea4464419f81f0d565a3883"
       }
     },
     "brew": {
@@ -414,7 +414,7 @@
         }
       },
       "postman": {
-        "version": "9.0.7",
+        "version": "9.1.2",
         "options": {
           "full_name": "postman",
           "args": {
@@ -474,7 +474,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.3.1",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "d3f3163de580207df4169e52dd043b104bcbc5b5",
+        "Homebrew/homebrew-core": "afd933775836f4a642ff0c0778c9bf567d1b8b18",
         "CLT": "12.5.0.22.9",
         "Xcode": "13.1",
         "macOS": "12.0.1"
