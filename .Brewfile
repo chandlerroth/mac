@@ -39,3 +39,4 @@ cask "loom"
 # Other
 cask "spotify"
 # mas "Magnet", id: 441258766
+cask "nordvpn"

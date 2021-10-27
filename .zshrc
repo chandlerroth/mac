@@ -13,6 +13,7 @@ plugins=(git web-search)
 source $ZSH/oh-my-zsh.sh
 
 eval "$(nodenv init -)"
+eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(rbenv init -)"
 eval "$(goenv init -)"
@@ -25,3 +26,4 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 alias mac=~/.bundle.sh
 alias dc="docker-compose"
+alias myip="curl -s https://ipecho.net/plain"
