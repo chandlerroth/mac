@@ -33,6 +33,8 @@ cask "zoom"
 cask "loom"
 mas "Slack", id: 803453959
 cask "protonmail-bridge"
+cask "signal"
+cask "discord"
 
 # Productivity
 mas "Bear", id: 1091189122

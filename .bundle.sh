@@ -19,6 +19,12 @@ if [[ $1 = 'e' ]] || [[ $1 = 'edit' ]]; then
     exit 0
 fi
 
+if [[ $1 = 's' ]] || [[ $1 = 'search' ]]; then
+    echo "Opening Homebrew search..."
+    open "https://formulae.brew.sh/formula/"
+    exit 0
+fi
+
 printf "Checking for Mac update...\n"
 softwareupdate -l
 
