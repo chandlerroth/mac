@@ -6,6 +6,8 @@ brew "nodenv"
 brew "pyenv"
 brew "rbenv"
 brew "goenv"
+brew "kubernetes-cli"
+brew "minikube"
 cask "dotnet-sdk" # requires rosetta installed
 cask "docker"
 
@@ -39,5 +41,6 @@ mas "Harvest", id: 506189836
 
 # Other
 cask "spotify"
+cask "bartender"
 mas "Magnet", id: 441258766
 cask "nordvpn"
