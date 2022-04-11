@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "d285a66c8701e8aad322de63b57edd4736df826b"
+        "revision": "0060651975a51b1035276dd128f25b7a3f216c5a"
       }
     },
     "brew": {
@@ -599,6 +599,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "steam": {
+        "version": "4.0",
+        "options": {
+          "full_name": "steam",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
@@ -639,10 +648,10 @@
   "system": {
     "macos": {
       "monterey": {
-        "HOMEBREW_VERSION": "3.4.5",
+        "HOMEBREW_VERSION": "3.4.6",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "76904b3d87295be0ab90ec5f9837b6b788426811",
-        "CLT": "13.3.0.0.1.1645755326",
+        "Homebrew/homebrew-core": "ba84f5a3764a2fab7c315370037543fc0bf63b9f",
+        "CLT": "13.3.1.0.1.1648687083",
         "Xcode": "13.3",
         "macOS": "12.3.1"
       }

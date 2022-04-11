@@ -42,6 +42,7 @@ mas "Harvest", id: 506189836
 
 # Other
 cask "spotify"
+cask "steam"
 cask "bartender"
 mas "Magnet", id: 441258766
 cask "nordvpn"
