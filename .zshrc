@@ -8,15 +8,16 @@ fi
 
 export ZSH_DISABLE_COMPFIX=true
 export ZSH="/Users/$(whoami)/.oh-my-zsh"
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 ZSH_THEME="robbyrussell"
 plugins=(git web-search)
 source $ZSH/oh-my-zsh.sh
 
 eval "$(nodenv init -)"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
 eval "$(rbenv init -)"
 eval "$(goenv init -)"
+eval "$(pyenv init -)"
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
