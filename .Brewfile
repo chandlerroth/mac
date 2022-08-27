@@ -1,48 +1,44 @@
 tap "homebrew/cask"
 cask_args appdir: "/Applications"
 
-# Runtimes
-brew "nodenv"
-brew "pyenv"
-brew "rbenv"
-brew "goenv"
-brew "kubernetes-cli"
-brew "minikube"
-cask "dotnet-sdk" # requires rosetta installed
-cask "docker"
-
-# Tooling
-brew "mas"
 brew "awscli"
-brew "terraform"
 brew "cocoapods"
 brew "git-lfs"
+brew "goenv"
+brew "kubernetes-cli"
+brew "mas"
+brew "minikube"
+brew "nodenv"
 brew "postgres"
-cask "brave-browser"
+brew "pyenv"
+brew "rbenv"
+brew "terraform"
 cask "android-studio"
+cask "bartender"
+cask "beeper"
+cask "brave-browser"
 cask "dbeaver-community"
-cask "visual-studio-code"
-cask "postman"
-mas "Transmit", id: 1436522307
-mas "Microsoft Remote Desktop", id: 1295203466
-mas "Xcode", id: 497799835
-
-# Communication
-cask "zoom"
+cask "discord"
+cask "docker"
+cask "dotnet-sdk"
+cask "google-cloud-sdk"
 cask "loom"
-mas "Slack", id: 803453959
+cask "nordvpn"
+cask "postman"
 cask "protonmail-bridge"
 cask "signal"
-cask "discord"
-
-# Productivity
-mas "Bear", id: 1091189122
-mas "Things", id: 904280696
-mas "Harvest", id: 506189836
-
-# Other
 cask "spotify"
 cask "steam"
-cask "bartender"
+cask "unity-hub"
+cask "visual-studio-code"
+cask "zoom"
+mas "Bear", id: 1091189122
+mas "Harvest", id: 506189836
 mas "Magnet", id: 441258766
-cask "nordvpn"
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Slack", id: 803453959
+mas "Things", id: 904280696
+mas "Transmit", id: 1436522307
+mas "Xcode", id: 497799835
+
+# https://www.wacom.com/en-us/getting-started/wacom-intuos
