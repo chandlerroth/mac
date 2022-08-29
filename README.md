@@ -16,6 +16,10 @@ For subsequent installs or updates, run `mac` anywhere.
 
 ## Configure
 
+### git config for home directory
+
+- Run `git config oh-my-zsh.hide-info 1`
+
 ### aws
 
 - Run `aws configure` to setup AWS
