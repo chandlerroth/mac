@@ -39,6 +39,6 @@ mas "Microsoft Remote Desktop", id: 1295203466
 mas "Slack", id: 803453959
 mas "Things", id: 904280696
 mas "Transmit", id: 1436522307
-# mas "Xcode", id: 497799835
+mas "Xcode", id: 497799835
 
 # https://www.wacom.com/en-us/getting-started/wacom-intuos

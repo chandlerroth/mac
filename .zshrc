@@ -16,7 +16,6 @@ source $ZSH/oh-my-zsh.sh
 
 eval "$(nodenv init -)"
 eval "$(rbenv init -)"
-eval "$(goenv init -)"
 eval "$(pyenv init -)"
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -29,12 +28,5 @@ alias mac=~/.bundle.sh
 alias dc="docker-compose"
 alias myip="curl -s https://ipecho.net/plain"
 
-export PATH="$PATH:/Users/chandler/.foundry/bin"
-
-export PATH="$PATH:/Users/chandler/.foundry/bin"
-
-# The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/chandler/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/chandler/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
 if [ -f '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
