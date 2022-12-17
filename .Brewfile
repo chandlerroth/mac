@@ -14,6 +14,7 @@ brew "pyenv"
 brew "rbenv"
 brew "terraform"
 
+cask "github"
 cask "figma"
 cask "1password-cli"
 cask "android-studio"
