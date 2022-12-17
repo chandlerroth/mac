@@ -15,6 +15,7 @@ brew "rbenv"
 brew "terraform"
 brew "wireshark"
 
+cask "dash"
 cask "raycast"
 cask "linear-linear"
 cask "github"
