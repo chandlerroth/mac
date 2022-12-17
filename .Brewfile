@@ -14,6 +14,8 @@ brew "pyenv"
 brew "rbenv"
 brew "terraform"
 
+cask "figma"
+cask "1password-cli"
 cask "android-studio"
 cask "bartender"
 cask "beeper"
