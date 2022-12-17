@@ -683,7 +683,7 @@
         }
       },
       "figma": {
-        "version": "112.2.0",
+        "version": "116.5.18",
         "options": {
           "full_name": "figma",
           "args": {
@@ -782,7 +782,7 @@
         }
       },
       "github": {
-        "version": "3.0.6-635516e1",
+        "version": "3.1.2-7cd66717",
         "options": {
           "full_name": "github",
           "args": {
@@ -825,6 +825,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "1password-cli": {
+        "version": "2.10.0",
+        "options": {
+          "full_name": "1password-cli",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
@@ -856,7 +865,10 @@
         "id": "441258766",
         "version": "2.10.0"
       },
-      "Xcode": null
+      "Xcode": {
+        "id": "497799835",
+        "version": "14.2"
+      }
     }
   },
   "system": {
@@ -872,9 +884,9 @@
       "ventura": {
         "HOMEBREW_VERSION": "3.6.15",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "6844e22b08748f10c69f43d64e1986d905001031",
+        "Homebrew/homebrew-core": "32dbb76ab721fc7aed3d163beccab243254684a1",
         "CLT": "14.2.0.0.1.1668646533",
-        "Xcode": "14.2",
+        "Xcode": "dunno",
         "macOS": "13.1"
       }
     }
