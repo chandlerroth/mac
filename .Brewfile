@@ -13,7 +13,9 @@ brew "nodenv"
 brew "pyenv"
 brew "rbenv"
 brew "terraform"
+brew "wireshark"
 
+cask "linear-linear"
 cask "github"
 cask "figma"
 cask "1password-cli"
@@ -48,3 +50,4 @@ mas "Xcode", id: 497799835
 
 # Add to chandlerroth/brew as cask
 # cask https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.46-1.dmg from https://www.wacom.com/en-us/getting-started/wacom-intuos
+# cask http://releases.copilot.money/latest
