@@ -8,3 +8,5 @@
 	email = hey@chandlerroth.com
 [pull]
 	rebase = false
+[push]
+	autoSetupRemote = true
