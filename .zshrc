@@ -14,10 +14,6 @@ ZSH_THEME="robbyrussell"
 plugins=(git web-search)
 source $ZSH/oh-my-zsh.sh
 
-eval "$(nodenv init -)"
-eval "$(rbenv init -)"
-eval "$(pyenv init -)"
-
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
@@ -32,3 +28,5 @@ alias prlog="git --no-pager log $(git symbolic-ref refs/remotes/origin/HEAD | se
 if [ -f '/Users/chandler/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/chandler/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 if [ -f '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH"
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
