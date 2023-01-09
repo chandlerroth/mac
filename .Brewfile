@@ -1,4 +1,6 @@
 tap "homebrew/cask"
+tap "napisani/procmux"
+tap "go-task/tap"
 cask_args appdir: "/Applications"
 
 brew "awscli"
@@ -13,6 +15,10 @@ brew "terraform"
 brew "wireshark"
 brew "yarn"
 brew "asdf"
+brew "k3d"
+brew "jq"
+brew "go-task"
+brew "procmux"
 
 cask "dash"
 cask "raycast"
@@ -37,6 +43,7 @@ cask "spotify"
 cask "steam"
 cask "unity-hub"
 cask "visual-studio-code"
+cask "tradingview"
 cask "zoom"
 
 mas "Bear", id: 1091189122
