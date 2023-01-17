@@ -3,6 +3,7 @@
 !.gitconfig
 !.zshrc
 !.bundle.sh
+!.tool-versions
 !.install.sh
 !.Brewfile
 !.Brewfile.lock.json

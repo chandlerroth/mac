@@ -45,6 +45,7 @@ cask "unity-hub"
 cask "visual-studio-code"
 cask "tradingview"
 cask "zoom"
+cask "altair-graphql-client"
 
 mas "Bear", id: 1091189122
 mas "Harvest", id: 506189836
