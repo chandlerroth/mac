@@ -21,6 +21,7 @@ brew "jq"
 brew "go-task"
 brew "procmux"
 brew "cloudquery"
+brew "neovim"
 
 cask "dash"
 cask "raycast"
