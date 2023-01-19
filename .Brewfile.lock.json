@@ -2,13 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "245050c869137c1544383b838a8e778e13387d9d"
+        "revision": "cc609100b4dc583c4bf6b5e2693faa731db5793e"
       },
       "napisani/procmux": {
         "revision": "1a50d85a1a3eed32b7d198f9f6f88bb212405adb"
       },
       "go-task/tap": {
         "revision": "1b4c8bdb9ccbc2fe8daacd86fc615f4d3b338a6d"
+      },
+      "cloudquery/tap": {
+        "revision": "b11ece24beeca5bb4895bb6a61a86d8bdfae61d5"
       }
     },
     "brew": {
@@ -898,6 +901,12 @@
             }
           }
         }
+      },
+      "cloudquery/tap/cloudquery": {
+      },
+      "cloudquery": {
+        "version": "2.2.0",
+        "bottle": false
       }
     },
     "cask": {
@@ -1064,7 +1073,7 @@
         }
       },
       "github": {
-        "version": "3.1.3-4731f276",
+        "version": "3.1.4-eaeb66dd",
         "options": {
           "full_name": "github",
           "args": {
@@ -1127,7 +1136,7 @@
         }
       },
       "raycast": {
-        "version": "1.45.3",
+        "version": "1.46.0",
         "options": {
           "full_name": "raycast",
           "args": {
@@ -1211,7 +1220,7 @@
       "ventura": {
         "HOMEBREW_VERSION": "3.6.19",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "33f8f987d9596e2556c6fa76a712ea9d6632fbcf",
+        "Homebrew/homebrew-core": "8d783467f57644011b625e66eb8f5ee448563133",
         "CLT": "14.2.0.0.1.1668646533",
         "Xcode": "14.2",
         "macOS": "13.1"

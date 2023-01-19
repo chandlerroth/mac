@@ -1,6 +1,7 @@
 tap "homebrew/cask"
 tap "napisani/procmux"
 tap "go-task/tap"
+tap "cloudquery/tap"
 cask_args appdir: "/Applications"
 
 brew "awscli"
@@ -19,6 +20,7 @@ brew "k3d"
 brew "jq"
 brew "go-task"
 brew "procmux"
+brew "cloudquery"
 
 cask "dash"
 cask "raycast"
