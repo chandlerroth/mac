@@ -1,4 +1,5 @@
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "napisani/procmux"
 tap "go-task/tap"
 tap "cloudquery/tap"
@@ -50,6 +51,7 @@ cask "tradingview"
 cask "zoom"
 cask "altair-graphql-client"
 cask "monitorcontrol"
+cask "zulu11"
 
 mas "Bear", id: 1091189122
 mas "Harvest", id: 506189836
