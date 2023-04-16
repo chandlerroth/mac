@@ -27,8 +27,9 @@ alias prlog="git --no-pager log $(git symbolic-ref refs/remotes/origin/HEAD | se
 
 if [ -f '/Users/chandler/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/chandler/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 if [ -f '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@13/bin:$HOME/.local/bin:$PATH"
 
 export ZEET_HOME="$HOME/Projects/zeet"
+export AWS_PROFILE=zeet
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
