@@ -6,7 +6,14 @@
 [user]
 	name = Chandler Roth
 	email = hey@chandlerroth.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAID1LK5hBa4wwRFoBU8ZmMkV3lLOY4vz3gOlPyEK1bzUw
 [pull]
 	rebase = false
 [push]
 	autoSetupRemote = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true

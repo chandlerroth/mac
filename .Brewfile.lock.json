@@ -14,7 +14,7 @@
         "revision": "e49137ffa4cf0a61b216600ece511a61f48cd176"
       },
       "homebrew/cask-versions": {
-        "revision": "ee629f917c3d90cdeac7fa922680b434fe08abb3"
+        "revision": "402512935ee2ef53a5c8a5072ccca79397bac487"
       },
       "microsoft/mssql-release": {
         "revision": "a4e0464d5731e518a69e09e25080d60e59cdcf89",
@@ -1456,6 +1456,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "gather": {
+        "version": "0.6.3",
+        "options": {
+          "full_name": "gather",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
@@ -1504,7 +1513,7 @@
         "macOS": "12.5.1"
       },
       "ventura": {
-        "HOMEBREW_VERSION": "4.0.13",
+        "HOMEBREW_VERSION": "4.0.14",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "14.3.0.0.1.1679647830",
