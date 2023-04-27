@@ -27,8 +27,8 @@ brew "neovim"
 brew "freetds"
 brew "openssl"
 brew "unixodbc"
-brew "msodbcsql18"
-brew "mssql-tools18"
+brew "msodbcsql17"
+brew "mssql-tools"
 
 cask "1password-cli"
 cask "android-studio"
@@ -58,6 +58,7 @@ cask "tradingview"
 cask "unity-hub"
 cask "visual-studio-code"
 cask "zoom"
+cask "minecraft"
 cask "zulu11"
 
 mas "Bear", id: 1091189122
