@@ -59,6 +59,7 @@ cask "unity-hub"
 cask "visual-studio-code"
 cask "zoom"
 cask "minecraft"
+cask "ultimaker-cura"
 cask "zulu11"
 
 mas "Bear", id: 1091189122
