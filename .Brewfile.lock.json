@@ -11,16 +11,19 @@
         "revision": "7d48bc05d5a12636ce26d314484c99d2f384a21f"
       },
       "cloudquery/tap": {
-        "revision": "369e4616117784717a39ec11cae003bedb807f2d"
+        "revision": "0db3d3a9ce4e32a4d2c9e68ac8db3798601b8209"
       },
       "homebrew/cask-versions": {
-        "revision": "69b552b8d22a283332847ef1f1055e2638859b54"
+        "revision": "e374cb40caa425677d684d69393a52ff22528d96"
       },
       "microsoft/mssql-release": {
         "revision": "a4e0464d5731e518a69e09e25080d60e59cdcf89",
         "options": {
           "clone_target": "https://github.com/Microsoft/homebrew-mssql-release"
         }
+      },
+      "chandlerroth/tap": {
+        "revision": "93e7e95a91da1f196acba68d6e6aea08e68e51f3"
       }
     },
     "brew": {
@@ -582,45 +585,45 @@
         }
       },
       "flyctl": {
-        "version": "0.0.558",
+        "version": "0.1.0",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "arm64_ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:d1a0eb761d6211592fdf8a4daee32b46dcd9129d65ba164e65da7ebd1759685f",
-              "sha256": "d1a0eb761d6211592fdf8a4daee32b46dcd9129d65ba164e65da7ebd1759685f"
+              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:a468153fa49e842abb7db30661b27baa543e0091bc5d2c2450c8a03a1a8b2de8",
+              "sha256": "a468153fa49e842abb7db30661b27baa543e0091bc5d2c2450c8a03a1a8b2de8"
             },
             "arm64_monterey": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:d1a0eb761d6211592fdf8a4daee32b46dcd9129d65ba164e65da7ebd1759685f",
-              "sha256": "d1a0eb761d6211592fdf8a4daee32b46dcd9129d65ba164e65da7ebd1759685f"
+              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:a468153fa49e842abb7db30661b27baa543e0091bc5d2c2450c8a03a1a8b2de8",
+              "sha256": "a468153fa49e842abb7db30661b27baa543e0091bc5d2c2450c8a03a1a8b2de8"
             },
             "arm64_big_sur": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:d1a0eb761d6211592fdf8a4daee32b46dcd9129d65ba164e65da7ebd1759685f",
-              "sha256": "d1a0eb761d6211592fdf8a4daee32b46dcd9129d65ba164e65da7ebd1759685f"
+              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:a468153fa49e842abb7db30661b27baa543e0091bc5d2c2450c8a03a1a8b2de8",
+              "sha256": "a468153fa49e842abb7db30661b27baa543e0091bc5d2c2450c8a03a1a8b2de8"
             },
             "ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:fb2875f989d78efa8c082e1227e56044309f3a7f37d0fe06b9640ed5647decf8",
-              "sha256": "fb2875f989d78efa8c082e1227e56044309f3a7f37d0fe06b9640ed5647decf8"
+              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:4f9ae29043e320da3e3701d627d379fdbdcb3078d7caa7fa97a7d6794edf7b47",
+              "sha256": "4f9ae29043e320da3e3701d627d379fdbdcb3078d7caa7fa97a7d6794edf7b47"
             },
             "monterey": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:fb2875f989d78efa8c082e1227e56044309f3a7f37d0fe06b9640ed5647decf8",
-              "sha256": "fb2875f989d78efa8c082e1227e56044309f3a7f37d0fe06b9640ed5647decf8"
+              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:4f9ae29043e320da3e3701d627d379fdbdcb3078d7caa7fa97a7d6794edf7b47",
+              "sha256": "4f9ae29043e320da3e3701d627d379fdbdcb3078d7caa7fa97a7d6794edf7b47"
             },
             "big_sur": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:fb2875f989d78efa8c082e1227e56044309f3a7f37d0fe06b9640ed5647decf8",
-              "sha256": "fb2875f989d78efa8c082e1227e56044309f3a7f37d0fe06b9640ed5647decf8"
+              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:4f9ae29043e320da3e3701d627d379fdbdcb3078d7caa7fa97a7d6794edf7b47",
+              "sha256": "4f9ae29043e320da3e3701d627d379fdbdcb3078d7caa7fa97a7d6794edf7b47"
             },
             "x86_64_linux": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:8ac44ee012ee7a9a69705d0c829c6601dfdc6e0ad5ebd39ad8b82d5379fba098",
-              "sha256": "8ac44ee012ee7a9a69705d0c829c6601dfdc6e0ad5ebd39ad8b82d5379fba098"
+              "url": "https://ghcr.io/v2/homebrew/core/flyctl/blobs/sha256:077ca9e63c5cd0264e5e2bcf6197a35ab58512a05d9a04058e0825087ef49f30",
+              "sha256": "077ca9e63c5cd0264e5e2bcf6197a35ab58512a05d9a04058e0825087ef49f30"
             }
           }
         }
@@ -904,7 +907,7 @@
       "cloudquery/tap/cloudquery": {
       },
       "cloudquery": {
-        "version": "3.0.2",
+        "version": "3.1.0",
         "bottle": false
       },
       "neovim": {
@@ -1187,7 +1190,7 @@
         }
       },
       "dbeaver-community": {
-        "version": "23.0.3",
+        "version": "23.0.4",
         "options": {
           "full_name": "dbeaver-community",
           "args": {
@@ -1232,7 +1235,7 @@
         }
       },
       "loom": {
-        "version": "0.161.0",
+        "version": "0.161.6",
         "options": {
           "full_name": "loom",
           "args": {
@@ -1376,7 +1379,7 @@
         }
       },
       "raycast": {
-        "version": "1.50.4",
+        "version": "1.50.5",
         "options": {
           "full_name": "raycast",
           "args": {
@@ -1466,7 +1469,7 @@
         }
       },
       "gather": {
-        "version": "0.6.7",
+        "version": "0.7.1",
         "options": {
           "full_name": "gather",
           "args": {
@@ -1487,6 +1490,15 @@
         "version": "5.3.1",
         "options": {
           "full_name": "ultimaker-cura",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "copilot-money": {
+        "version": "latest",
+        "options": {
+          "full_name": "copilot-money",
           "args": {
             "appdir": "/Applications"
           }
@@ -1539,7 +1551,7 @@
         "macOS": "12.5.1"
       },
       "ventura": {
-        "HOMEBREW_VERSION": "4.0.16",
+        "HOMEBREW_VERSION": "4.0.17",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "14.3.0.0.1.1679647830",
