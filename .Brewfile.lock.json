@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "63ec34485c93fdeb8b1c1433e2933d6b21343541"
+        "revision": "db4c7a5ac01d73c782ebf805b17d886a07ebf869"
       },
       "napisani/procmux": {
         "revision": "1a50d85a1a3eed32b7d198f9f6f88bb212405adb"
@@ -1475,7 +1475,7 @@
         }
       },
       "github": {
-        "version": "3.2.0-3a1561b0",
+        "version": "3.3.3-abf8a692",
         "options": {
           "full_name": "github",
           "args": {
