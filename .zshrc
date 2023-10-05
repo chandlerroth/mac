@@ -26,9 +26,8 @@ alias myip="curl -s ipinfo.io/json | jq -r '.[\"ip\"]'"
 alias prlog="git --no-pager log $(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')..$(git branch --show-current) --reverse --oneline --no-decorate"
 
 if [ -f '/Users/chandler/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/chandler/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-if [ -f '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-export PATH="/opt/homebrew/opt/postgresql@13/bin:$HOME/.local/bin:$PATH"
-
+if [ -f '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc' k]; then . '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 export ZEET_HOME="$HOME/Projects/zeet"
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
