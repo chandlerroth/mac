@@ -23,3 +23,8 @@ For subsequent installs or updates, run `mac` anywhere.
 ### aws
 
 - Run `aws configure` to setup AWS
+
+
+### asdf plugins
+
+TODO: add asdf plugins to install script from https://github.com/asdf-vm/asdf-plugins
