@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "db4c7a5ac01d73c782ebf805b17d886a07ebf869"
+        "revision": "28e17cb01752501d4b6e0e1a193e7254d5f22871"
       },
       "napisani/procmux": {
         "revision": "1a50d85a1a3eed32b7d198f9f6f88bb212405adb"
@@ -1705,7 +1705,8 @@
       "Xcode": {
         "id": "497799835",
         "version": "15.0"
-      }
+      },
+      "Anybox": null
     }
   },
   "system": {

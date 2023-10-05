@@ -62,6 +62,7 @@ cask "visual-studio-code"
 cask "zoom"
 cask "zulu11"
 
+mas "Anybox", id: 1593408455
 mas "Bear", id: 1091189122
 mas "Harvest", id: 506189836
 mas "Magnet", id: 441258766
