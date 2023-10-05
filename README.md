@@ -23,22 +23,3 @@ For subsequent installs or updates, run `mac` anywhere.
 ### aws
 
 - Run `aws configure` to setup AWS
-
-### rbenv
-
-- Visit https://www.ruby-lang.org/ to find the LTS version
-- Run `rbenv install [lts]`
-- Run `rbenv global [lts]`
-
-### pyenv
-
-- Visit https://www.python.org/ to find the LTS version
-- Run `pyenv install [lts]`
-- Run `pyenv global [lts]`
-
-### nodenv
-
-- Visit https://nodejs.org/ to find the LTS version
-- Run `nodenv install [lts]`
-- Run `nodenv global [lts]`
-- Run `ln -s $(which node) /usr/local/bin/node` to link nodenv to the system
