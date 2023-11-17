@@ -34,6 +34,7 @@ brew "yarn"
 
 cask "1password-cli"
 cask "android-studio"
+cask "anki"
 cask "bartender"
 cask "brave-browser"
 cask "copilot-money"
