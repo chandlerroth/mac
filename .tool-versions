@@ -2,3 +2,4 @@ nodejs 18.13.0
 golang 1.19.4
 rust 1.66.1
 python 3.9.16
+kubectl 1.24.7

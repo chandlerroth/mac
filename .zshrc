@@ -29,5 +29,6 @@ if [ -f '/Users/chandler/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Us
 if [ -f '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 export ZEET_HOME="$HOME/Projects/zeet"
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
