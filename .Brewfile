@@ -32,6 +32,7 @@ brew "terraform"
 brew "unixodbc"
 brew "wireshark"
 brew "yarn"
+brew "mkcert"
 
 cask "1password-cli"
 cask "android-studio"
