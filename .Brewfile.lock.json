@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "5144870def0a67b34e40f5ec765937bacf4edb43"
+        "revision": "8a1f342bbaf7f0279f37613da5cbaf0f847d9d10"
       },
       "napisani/procmux": {
         "revision": "1a50d85a1a3eed32b7d198f9f6f88bb212405adb"
@@ -14,7 +14,7 @@
         "revision": "8d9b377d32a0524fda551c731c578cd18be22239"
       },
       "homebrew/cask-versions": {
-        "revision": "413e52bb55a5d85979929ed9d20895fa0ce8bd1d"
+        "revision": "63b8e2cc7bd0f5a49958ea284b474240ff71796f"
       },
       "microsoft/mssql-release": {
         "revision": "41be57958359b155909e7c72444047bead4b01d8",
@@ -1486,7 +1486,7 @@
         }
       },
       "zoom": {
-        "version": "5.17.10.30974",
+        "version": "5.17.11.31580",
         "options": {
           "full_name": "zoom",
           "args": {
@@ -1777,6 +1777,24 @@
         "version": "23.12.1",
         "options": {
           "full_name": "anki",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "arc": {
+        "version": "1.33.0,47142",
+        "options": {
+          "full_name": "arc",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "hyper": {
+        "version": "3.4.1",
+        "options": {
+          "full_name": "hyper",
           "args": {
             "appdir": "/Applications"
           }
