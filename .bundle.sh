@@ -1,9 +1,9 @@
 #!/bin/bash
 
-(cd ~; git fetch)
+(cd ~ || exit; git fetch)
 
 if ! [[ $BREWFILE ]]; then
-    export BREWFILE="~/.Brewfile"
+    export BREWFILE=~/.Brewfile
 fi
 
 echo "Using $BREWFILE for Homebrew"
@@ -12,9 +12,9 @@ echo "Using $BREWFILE for Homebrew"
 if [[ $1 = 'e' ]] || [[ $1 = 'edit' ]]; then
     echo "Opening $BREWFILE..."
     if [ -x "$(command -v code)" ]; then
-        code $BREWFILE
+        code "$BREWFILE"
     else
-        vi $BREWFILE
+        vi "$BREWFILE"
     fi
     exit 0
 fi
@@ -46,7 +46,7 @@ brew update --verbose
 
 printf "\n"
 printf "Installing Homebrew apps...\n"
-brew bundle --verbose --cleanup --file $BREWFILE
+brew bundle --verbose --cleanup --file "$BREWFILE"
 
 if [[ $1 = 'u' ]] || [[ $1 = 'upgrade' ]]; then
     printf "\n"
@@ -62,7 +62,7 @@ fi
 
 if ! [[ -z "$(cd ~; git status --porcelain)" ]]; then 
   printf "\n"
-  (cd ~; git status)
+  (cd ~ || exit; git status)
   printf "\n"
   echo "Warning: You need to sync your home directory!"
 fi
