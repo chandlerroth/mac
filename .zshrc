@@ -30,5 +30,6 @@ if [ -f '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then 
 export ZEET_HOME="$HOME/Projects/zeet"
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$PATH:/Users/chandler/.dotnet/tools"
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
