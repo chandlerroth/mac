@@ -70,7 +70,6 @@ cask "tradingview"
 cask "ultimaker-cura"
 cask "visual-studio-code"
 cask "zoom"
-cask "zulu11"
 
 mas "Anybox", id: 1593408455
 mas "Bear", id: 1091189122
