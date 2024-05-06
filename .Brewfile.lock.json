@@ -24,6 +24,9 @@
       },
       "chandlerroth/tap": {
         "revision": "93e7e95a91da1f196acba68d6e6aea08e68e51f3"
+      },
+      "hashicorp/tap": {
+        "revision": "1fa90087225dad7b6e3ec90416d9af2e01c162be"
       }
     },
     "brew": {
@@ -1478,6 +1481,10 @@
             }
           }
         }
+      },
+      "hashicorp/tap/terraform": {
+        "version": "1.8.2",
+        "bottle": false
       }
     },
     "cask": {
