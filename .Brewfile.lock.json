@@ -1485,6 +1485,50 @@
       "hashicorp/tap/terraform": {
         "version": "1.8.2",
         "bottle": false
+      },
+      "tailscale": {
+        "version": "1.64.2",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/tailscale/blobs/sha256:1bf2ed37660279253164a0f31cfb3e7f8dafdec22bf194c02b37a2ce714fa884",
+              "sha256": "1bf2ed37660279253164a0f31cfb3e7f8dafdec22bf194c02b37a2ce714fa884"
+            },
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/tailscale/blobs/sha256:eebf1e5271098db2f3499e33fa2bc7479229632814b1950f2d1df1a5f5a4f11b",
+              "sha256": "eebf1e5271098db2f3499e33fa2bc7479229632814b1950f2d1df1a5f5a4f11b"
+            },
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/tailscale/blobs/sha256:d7939853815cbbed23e587a7bd82bf7ec41b9cdaaf22b2a1ca134e734cf0ffdf",
+              "sha256": "d7939853815cbbed23e587a7bd82bf7ec41b9cdaaf22b2a1ca134e734cf0ffdf"
+            },
+            "sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/tailscale/blobs/sha256:d5238126cb10c2c75fe503cf8ec750f06ffade4ac551af843aec3cda8f30606b",
+              "sha256": "d5238126cb10c2c75fe503cf8ec750f06ffade4ac551af843aec3cda8f30606b"
+            },
+            "ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/tailscale/blobs/sha256:257cfe1918cc8955147f4c55c8143b28a934a7c5ffd92b70d27aabb6f272b1da",
+              "sha256": "257cfe1918cc8955147f4c55c8143b28a934a7c5ffd92b70d27aabb6f272b1da"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/tailscale/blobs/sha256:2d7955be29022033afb249d941a8aba54e93f3484fbbf5ea05bb73dc4ece1dfa",
+              "sha256": "2d7955be29022033afb249d941a8aba54e93f3484fbbf5ea05bb73dc4ece1dfa"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/tailscale/blobs/sha256:96fe0f20123402da99e5d74b224b5550afcb945f07d79b5939b1bdfe903105a8",
+              "sha256": "96fe0f20123402da99e5d74b224b5550afcb945f07d79b5939b1bdfe903105a8"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -1921,6 +1965,10 @@
       "Anybox": {
         "id": "1593408455",
         "version": "2.4"
+      },
+      "Tailscale": {
+        "id": "1475387142",
+        "version": "1.64.0"
       }
     }
   },
@@ -1943,7 +1991,7 @@
         "macOS": "13.4"
       },
       "sonoma": {
-        "HOMEBREW_VERSION": "4.2.20",
+        "HOMEBREW_VERSION": "4.2.21",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.3.0.0.1.1708646388",

@@ -80,6 +80,7 @@ mas "Slack", id: 803453959
 mas "Things", id: 904280696
 mas "Transmit", id: 1436522307
 mas "Xcode", id: 497799835
+mas "Tailscale", id: 1475387142
 
 # Add to chandlerroth/brew as cask
 # cask https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.46-1.dmg from https://www.wacom.com/en-us/getting-started/wacom-intuos
