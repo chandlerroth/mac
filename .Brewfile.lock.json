@@ -2020,6 +2020,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "screen-studio": {
+        "version": "2.22.9",
+        "options": {
+          "full_name": "screen-studio",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
