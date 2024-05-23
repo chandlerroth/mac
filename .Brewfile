@@ -17,6 +17,7 @@ brew "flyctl"
 brew "freetds"
 brew "git-lfs"
 brew "go-task"
+brew "hashicorp/tap/terraform"
 brew "jq"
 brew "jsonnet"
 brew "k3d"
@@ -31,32 +32,31 @@ brew "neovim"
 brew "openssl"
 brew "pipx"
 brew "postgresql@15"
-brew "hashicorp/tap/terraform"
 brew "unixodbc"
 brew "wireshark"
 brew "yarn"
 
 cask "1password-cli"
 cask "android-studio"
-cask "anki"
 cask "arc"
 cask "bartender"
 cask "blender"
 cask "brave-browser"
+cask "clay"
 cask "copilot-money"
-cask "dbeaver-community"
+cask "datagrip"
 cask "discord"
 cask "docker"
 cask "gather"
 cask "github"
+cask "godot"
 cask "google-cloud-sdk"
-cask "hyper"
 cask "krisp"
 cask "linear-linear"
 cask "loom"
-cask "mongodb-compass"
 cask "monitorcontrol"
 cask "notion"
+cask "obsidian"
 cask "omnidisksweeper"
 cask "openlens"
 cask "postman"
@@ -66,21 +66,19 @@ cask "proxyman"
 cask "raycast"
 cask "signal"
 cask "spotify"
+cask "streamlabs"
 cask "tradingview"
 cask "ultimaker-cura"
 cask "visual-studio-code"
 cask "zoom"
 
-mas "Anybox", id: 1593408455
 mas "Bear", id: 1091189122
 mas "Harvest", id: 506189836
 mas "Magnet", id: 441258766
-mas "Microsoft Remote Desktop", id: 1295203466
 mas "Slack", id: 803453959
 mas "Things", id: 904280696
 mas "Transmit", id: 1436522307
 mas "Xcode", id: 497799835
-mas "Tailscale", id: 1475387142
 
 # Add to chandlerroth/brew as cask
 # cask https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.46-1.dmg from https://www.wacom.com/en-us/getting-started/wacom-intuos
