@@ -1,4 +1,3 @@
-tap "homebrew/cask-versions"
 tap "go-task/tap"
 tap "hashicorp/tap"
 tap "cloudquery/tap"
@@ -11,6 +10,7 @@ brew "awscli"
 brew "cloudquery"
 brew "cocoapods"
 brew "dotnet"
+brew "dockutil"
 brew "ffmpeg"
 brew "firebase-cli"
 brew "flyctl"
@@ -41,7 +41,6 @@ cask "android-studio"
 cask "arc"
 cask "bartender"
 cask "blender"
-cask "brave-browser"
 cask "clay"
 cask "copilot-money"
 cask "datagrip"
@@ -82,4 +81,3 @@ mas "Xcode", id: 497799835
 
 # Add to chandlerroth/brew as cask
 # cask https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.46-1.dmg from https://www.wacom.com/en-us/getting-started/wacom-intuos
-# cask http://releases.copilot.money/latest
