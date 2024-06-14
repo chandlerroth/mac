@@ -9,4 +9,5 @@
 !.Brewfile.lock.json
 !.Brewfile.personal
 !.Brewfile.personal.lock.json
+!.git-*.sh
 !README.md

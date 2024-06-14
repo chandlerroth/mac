@@ -24,7 +24,7 @@ alias mac="~/.bundle.sh"
 alias dc="docker compose"
 alias myip="curl -s ipinfo.io/json | jq -r '.[\"ip\"]'"
 alias prlog="git --no-pager log $(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')..$(git branch --show-current) --reverse --oneline --no-decorate"
-alias gitpf="git fetch origin && git reset origin/staging --hard"
+alias gitpf="~/.git-force-pull.sh"
 
 if [ -f '/Users/chandler/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/chandler/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 if [ -f '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
