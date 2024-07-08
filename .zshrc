@@ -35,3 +35,6 @@ export PATH="$PATH:/Users/chandler/.dotnet/tools"
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+
+# sst
+export PATH=/Users/chandlerroth/.sst/bin:$PATH
