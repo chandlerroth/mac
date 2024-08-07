@@ -6,6 +6,7 @@ tap "chandlerroth/tap"
 cask_args appdir: "/Applications"
 
 brew "asdf"
+brew "imessage-exporter"
 brew "awscli"
 brew "cloudquery"
 brew "cocoapods"
@@ -15,8 +16,10 @@ brew "ffmpeg"
 brew "firebase-cli"
 brew "freetds"
 brew "git-lfs"
+brew "go-task"
 brew "hashicorp/tap/terraform"
 brew "jq"
+brew "jsonnet"
 brew "k3d"
 brew "kubernetes-cli"
 brew "mas"
@@ -30,6 +33,7 @@ brew "openssl"
 brew "pipx"
 brew "postgresql@15"
 brew "unixodbc"
+brew "yt-dlp"
 
 cask "1password-cli"
 cask "android-studio"
@@ -75,7 +79,7 @@ mas "Magnet", id: 441258766
 mas "Slack", id: 803453959
 mas "Things", id: 904280696
 mas "Transmit", id: 1436522307
-mas "Xcode", id: 497799835
+# mas "Xcode", id: 497799835
 
 # Add to chandlerroth/brew as cask
 # cask https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.46-1.dmg from https://www.wacom.com/en-us/getting-started/wacom-intuos
