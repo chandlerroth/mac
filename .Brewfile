@@ -6,6 +6,7 @@ tap "chandlerroth/tap"
 cask_args appdir: "/Applications"
 
 brew "asdf"
+brew "poppler"
 brew "imessage-exporter"
 brew "awscli"
 brew "cloudquery"

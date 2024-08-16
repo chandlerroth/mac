@@ -38,3 +38,4 @@ export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 
 # sst
 export PATH=/Users/chandlerroth/.sst/bin:$PATH
+if [ -f "/Users/chandlerroth/.config/fabric/fabric-bootstrap.inc" ]; then . "/Users/chandlerroth/.config/fabric/fabric-bootstrap.inc"; fi
