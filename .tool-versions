@@ -1,5 +1,5 @@
 nodejs 20.11.1
-golang 1.19.4
+golang 1.23.0
 rust 1.66.1
 python 3.12.4
 kubectl 1.24.7
