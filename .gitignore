@@ -4,6 +4,7 @@
 !.zshrc
 !.bundle.sh
 !.tool-versions
+!.go-install-tools.sh
 !.install.sh
 !.Brewfile
 !.Brewfile.lock.json

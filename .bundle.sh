@@ -48,6 +48,10 @@ printf "\n"
 printf "Installing Homebrew apps...\n"
 brew bundle --verbose --cleanup --file "$BREWFILE"
 
+printf "\n"
+printf "Installing Go tools...\n"
+./.go-install-tools.sh
+
 if [[ $1 = 'u' ]] || [[ $1 = 'upgrade' ]]; then
     printf "\n"
     printf "Upgrading Homebrew apps...\n"
@@ -60,9 +64,10 @@ if [[ -f "~/Projects" ]]; then
     mkdir ~/Projects
 fi
 
-if ! [[ -z "$(cd ~; git status --porcelain)" ]]; then 
-  printf "\n"
-  (cd ~ || exit; git status)
-  printf "\n"
-  echo "Warning: You need to sync your home directory!"
+
+if ! [[ -z "$(cd ~; git status --porcelain)" ]]; then
+    printf "\n"
+    (cd ~ || exit; git status)
+    printf "\n"
+    echo "Warning: You need to sync your home directory!"
 fi
