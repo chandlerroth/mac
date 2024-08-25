@@ -2258,6 +2258,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "cursor": {
+        "version": "0.39.6,240819ih4ta2fye",
+        "options": {
+          "full_name": "cursor",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "mas": {
