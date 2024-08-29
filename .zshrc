@@ -6,33 +6,32 @@ if [[ $(arch) = "arm64" ]]; then
     eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-export ZSH_DISABLE_COMPFIX=true
-export ZSH="/Users/$(whoami)/.oh-my-zsh"
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+OBSIDIAN_VAULT="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/Default"
 ZSH_THEME="robbyrussell"
 plugins=(git web-search)
-source $ZSH/oh-my-zsh.sh
 
+export ZSH_DISABLE_COMPFIX=true
+export ZSH="$HOME/.oh-my-zsh"
+export PYENV_ROOT="$HOME/.pyenv"
 export ANDROID_HOME=$HOME/Library/Android/sdk
+export ZEET_HOME="$HOME/Projects/zeet"
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-
-if [ -f '/Users/chandler/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/chandler/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-if [ -f '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/chandler/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-export ZEET_HOME="$HOME/Projects/zeet"
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="$PATH:/Users/chandler/.dotnet/tools"
+export PATH="$PATH:$HOME/.dotnet/tools"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+export PATH="$HOME/.sst/bin":$PATH
+
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+
+source $ZSH/oh-my-zsh.sh
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
-export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 
-# sst
-export PATH=/Users/chandlerroth/.sst/bin:$PATH
-if [ -f "/Users/chandlerroth/.config/fabric/fabric-bootstrap.inc" ]; then . "/Users/chandlerroth/.config/fabric/fabric-bootstrap.inc"; fi
+if [ -f "$HOME/.config/fabric/fabric-bootstrap.inc" ]; then . "$HOME/.config/fabric/fabric-bootstrap.inc"; fi
 
 alias mac="~/.bundle.sh"
 alias dc="docker compose"
@@ -43,17 +42,15 @@ alias gitpf="~/.git-force-pull.sh"
 function ytd() {
     local youtube_id=$(echo "$1" | sed -E 's#(https?://)?(www\.)?youtube\.com/watch\?v=##; s#(https?://)?(www\.)?youtu\.be/##; s#(https?://)?(www\.)?youtube\.com/shorts/##; s/&.*//; s/\?.*//;')
     
-    yt-dlp "$1" -f mp4 -o "/Users/chandlerroth/Documents/Data/Videos/$youtube_id".mp4;
+    yt-dlp "$1" -f mp4 -o "$OBSIDIAN_VAULT/Data/Videos/$youtube_id".mp4;
 }
-
 
 function silent() {
     $1 > /dev/null 2>&1;
 };
 
-## AI commands
 function gaw() {
-    go-readability "$1" | html2md -i | tee "/Users/chandlerroth/Documents/Data/Articles/${1##*/}".md | extract_article_wisdom --stream | tee "/Users/chandlerroth/Documents/Data/Articles/${1##*/}"-wisdom.md;
+    go-readability "$1" | html2md -i | tee "$OBSIDIAN_VAULT/Data/Articles/${1##*/}".md | extract_article_wisdom --stream | tee "$OBSIDIAN_VAULT/Data/Articles/${1##*/}"-wisdom.md;
 }
 
 function spk() {
@@ -69,11 +66,11 @@ function spk() {
 function ytw() {
     local youtube_id=$(echo "$1" | sed -E 's#(https?://)?(www\.)?youtube\.com/watch\?v=##; s#(https?://)?(www\.)?youtu\.be/##; s#(https?://)?(www\.)?youtube\.com/shorts/##; s/&.*//; s/\?.*//;')
     
-    ytd "$1" && yt --transcript "$1" | tee "/Users/chandlerroth/Documents/Data/Videos/$youtube_id".txt | extract_wisdom --stream | tee "/Users/chandlerroth/Documents/Data/Videos/$youtube_id"-wisdom.md;
+    ytd "$1" && yt --transcript "$1" | tee "$OBSIDIAN_VAULT/Data/Videos/$youtube_id".txt | extract_wisdom --stream | tee "$OBSIDIAN_VAULT/Data/Videos/$youtube_id"-wisdom.md;
 }
 
 function etw() {
-    cat $1 | extract_wisdom --stream | tee "/Users/chandlerroth/Documents/Data/Wisdom/$(date +%Y%m%d%H%M%S)-${1%.*}"-wisdom.md;
+    cat $1 | extract_wisdom --stream | tee "$OBSIDIAN_VAULT/Data/Wisdom/$(date +%Y%m%d%H%M%S)-${1%.*}"-wisdom.md;
 }
 
 compdef _files spk

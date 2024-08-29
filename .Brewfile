@@ -72,7 +72,6 @@ cask "streamlabs"
 cask "telegram"
 cask "tradingview"
 cask "ultimaker-cura"
-cask "visual-studio-code"
 cask "zoom"
 
 mas "Bear", id: 1091189122
