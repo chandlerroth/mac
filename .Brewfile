@@ -33,7 +33,6 @@ brew "openssl"
 brew "pipx"
 brew "poppler"
 brew "postgresql@15"
-brew "tailscale"
 brew "unixodbc"
 brew "yt-dlp"
 

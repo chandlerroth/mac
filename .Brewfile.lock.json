@@ -11,7 +11,7 @@
         "revision": "e67229269bbe8c0a7c1716d7579ec1df3995683d"
       },
       "cloudquery/tap": {
-        "revision": "30bae12962a6e76f5f40976cacf81272a2af4a64"
+        "revision": "d2bbad944052f9702a76899608720e643ab4707a"
       },
       "homebrew/cask-versions": {
         "revision": "057d1202c4ac9d4059909260af8d13e20fbf8cab"
@@ -26,7 +26,7 @@
         "revision": "93e7e95a91da1f196acba68d6e6aea08e68e51f3"
       },
       "hashicorp/tap": {
-        "revision": "fdcae185a9782950d460bc955f7a2442e98a283a"
+        "revision": "b364af24367f9fbd26fc8e93d202fa0ce8785940"
       }
     },
     "brew": {
@@ -256,40 +256,40 @@
         }
       },
       "awscli": {
-        "version": "2.18.5",
+        "version": "2.18.7",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "arm64_sequoia": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:c6df20015d79682b110cfe0ef65f7217be095432fe53e83789618e1dd1557fda",
-              "sha256": "c6df20015d79682b110cfe0ef65f7217be095432fe53e83789618e1dd1557fda"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:5feac84a3b11788d99ba6006021d15342688467df9e35f58c2055c77c2ff6f84",
+              "sha256": "5feac84a3b11788d99ba6006021d15342688467df9e35f58c2055c77c2ff6f84"
             },
             "arm64_sonoma": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:1ede4b78c6b664160c7be571a26ddfe9ff21fee24c0944e3a68dd7ca4c1c874a",
-              "sha256": "1ede4b78c6b664160c7be571a26ddfe9ff21fee24c0944e3a68dd7ca4c1c874a"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:6e3b115c596871e74451d583d302792915465b31f8da566455033204d0b20c77",
+              "sha256": "6e3b115c596871e74451d583d302792915465b31f8da566455033204d0b20c77"
             },
             "arm64_ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:dd4ea10711dfd8bb8cb3647b71a39c56f6dd0777cc0adbcc6ed6282216263d72",
-              "sha256": "dd4ea10711dfd8bb8cb3647b71a39c56f6dd0777cc0adbcc6ed6282216263d72"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:9edcde1f0d6e7a8c4455b0568f5880b5372aefb549fb5be1480e738d16d1f838",
+              "sha256": "9edcde1f0d6e7a8c4455b0568f5880b5372aefb549fb5be1480e738d16d1f838"
             },
             "sonoma": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:72cb31b7ee6d9c3ee7abb936a64e9bdf6ca8f12bd0b1b2777f972bc54c15af0a",
-              "sha256": "72cb31b7ee6d9c3ee7abb936a64e9bdf6ca8f12bd0b1b2777f972bc54c15af0a"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:6672b626fbcd518f2cccefe358aff5fd0ab251d90e1a95dea8a7c1cf4f19b8b6",
+              "sha256": "6672b626fbcd518f2cccefe358aff5fd0ab251d90e1a95dea8a7c1cf4f19b8b6"
             },
             "ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:f2b1937485b8a6b5d89db226078d1652526d86f416c4dbb0fa3cc17bdf56af23",
-              "sha256": "f2b1937485b8a6b5d89db226078d1652526d86f416c4dbb0fa3cc17bdf56af23"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:1805fcb23535ac15055e7cc863b97adb615bb599d5e80b3adf4c6a76fa5e8c38",
+              "sha256": "1805fcb23535ac15055e7cc863b97adb615bb599d5e80b3adf4c6a76fa5e8c38"
             },
             "x86_64_linux": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:fd64cbcc4e0f12745da3e7b87c87ee962234f398570bbbd55a72642020814a65",
-              "sha256": "fd64cbcc4e0f12745da3e7b87c87ee962234f398570bbbd55a72642020814a65"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:c7fb7d79947d9e226c0b46bd0e0e256e70fa01712126a1b55b6b07d0e2f7fea3",
+              "sha256": "c7fb7d79947d9e226c0b46bd0e0e256e70fa01712126a1b55b6b07d0e2f7fea3"
             }
           }
         }
@@ -910,7 +910,7 @@
       "cloudquery/tap/cloudquery": {
       },
       "cloudquery": {
-        "version": "6.8.5",
+        "version": "6.8.7",
         "bottle": false
       },
       "neovim": {
@@ -1824,7 +1824,7 @@
         }
       },
       "android-studio": {
-        "version": "2024.2.1.9",
+        "version": "2024.2.1.10",
         "options": {
           "full_name": "android-studio",
           "args": {
@@ -1851,7 +1851,7 @@
         }
       },
       "postman": {
-        "version": "11.16.0",
+        "version": "11.17.0",
         "options": {
           "full_name": "postman",
           "args": {
@@ -1932,7 +1932,7 @@
         }
       },
       "bartender": {
-        "version": "5.1.8",
+        "version": "5.2.3",
         "options": {
           "full_name": "bartender",
           "args": {
@@ -1968,7 +1968,7 @@
         }
       },
       "google-cloud-sdk": {
-        "version": "496.0.0",
+        "version": "497.0.0",
         "options": {
           "full_name": "google-cloud-sdk",
           "args": {
@@ -2022,7 +2022,7 @@
         }
       },
       "raycast": {
-        "version": "1.84.2",
+        "version": "1.84.3",
         "options": {
           "full_name": "raycast",
           "args": {
@@ -2184,7 +2184,7 @@
         }
       },
       "blender": {
-        "version": "4.2.2",
+        "version": "4.2.3",
         "options": {
           "full_name": "blender",
           "args": {
@@ -2229,7 +2229,7 @@
         }
       },
       "streamlabs": {
-        "version": "1.16.7",
+        "version": "1.17.0",
         "options": {
           "full_name": "streamlabs",
           "args": {
@@ -2277,6 +2277,24 @@
         "version": "7.1.0",
         "options": {
           "full_name": "yubico-authenticator",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "nvidia-geforce-now": {
+        "version": "2.0.67.137",
+        "options": {
+          "full_name": "nvidia-geforce-now",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "tailscale": {
+        "version": "1.76.0",
+        "options": {
+          "full_name": "tailscale",
           "args": {
             "appdir": "/Applications"
           }
