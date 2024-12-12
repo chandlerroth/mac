@@ -35,6 +35,7 @@ brew "poppler"
 brew "postgresql@15"
 brew "unixodbc"
 brew "yt-dlp"
+brew "php@8.2"
 
 cask "1password-cli"
 cask "android-studio"
