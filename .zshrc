@@ -73,5 +73,13 @@ function etw() {
     cat $1 | extract_wisdom --stream | tee "$OBSIDIAN_VAULT/Data/Wisdom/$(date +%Y%m%d%H%M%S)-${1%.*}"-wisdom.md;
 }
 
+prj() {
+    if [ "$1" = "cd" ] || [[ "$1" =~ ^[0-9]+$ ]]; then
+        cd "$(command prj "$@")"
+    else
+        command prj "$@"
+    fi
+}
+
 compdef _files spk
 compdef _files etw
