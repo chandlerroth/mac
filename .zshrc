@@ -29,7 +29,7 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 if [ -f "$HOME/.config/fabric/fabric-bootstrap.inc" ]; then . "$HOME/.config/fabric/fabric-bootstrap.inc"; fi
 
@@ -83,3 +83,10 @@ prj() {
 
 compdef _files spk
 compdef _files etw
+
+# bun completions
+[ -s "/Users/chandler/.bun/_bun" ] && source "/Users/chandler/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
