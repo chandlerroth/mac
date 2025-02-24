@@ -38,10 +38,11 @@ alias dc="docker compose"
 alias myip="curl -s ipinfo.io/json | jq -r '.[\"ip\"]'"
 alias prlog="git --no-pager log $(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')..$(git branch --show-current) --reverse --oneline --no-decorate"
 alias gitpf="~/.git-force-pull.sh"
+alias code="zed"
 
 function ytd() {
     local youtube_id=$(echo "$1" | sed -E 's#(https?://)?(www\.)?youtube\.com/watch\?v=##; s#(https?://)?(www\.)?youtu\.be/##; s#(https?://)?(www\.)?youtube\.com/shorts/##; s/&.*//; s/\?.*//;')
-    
+
     yt-dlp "$1" -f mp4 -o "$OBSIDIAN_VAULT/Data/Videos/$youtube_id".mp4;
 }
 
@@ -65,7 +66,7 @@ function spk() {
 
 function ytw() {
     local youtube_id=$(echo "$1" | sed -E 's#(https?://)?(www\.)?youtube\.com/watch\?v=##; s#(https?://)?(www\.)?youtu\.be/##; s#(https?://)?(www\.)?youtube\.com/shorts/##; s/&.*//; s/\?.*//;')
-    
+
     ytd "$1" && yt --transcript "$1" | tee "$OBSIDIAN_VAULT/Data/Videos/$youtube_id".txt | extract_wisdom --stream | tee "$OBSIDIAN_VAULT/Data/Videos/$youtube_id"-wisdom.md;
 }
 
@@ -84,9 +85,7 @@ prj() {
 compdef _files spk
 compdef _files etw
 
-# bun completions
-[ -s "/Users/chandler/.bun/_bun" ] && source "/Users/chandler/.bun/_bun"
-
 # bun
+[ -s "/Users/chandler/.bun/_bun" ] && source "/Users/chandler/.bun/_bun"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"

@@ -11,8 +11,8 @@ echo "Using $BREWFILE for Homebrew"
 # "Edit" command
 if [[ $1 = 'e' ]] || [[ $1 = 'edit' ]]; then
     echo "Opening $BREWFILE..."
-    if [ -x "$(command -v code)" ]; then
-        code "$BREWFILE"
+    if [ -x "$(command -v zed)" ]; then
+        zed "$BREWFILE"
     else
         vi "$BREWFILE"
     fi
