@@ -36,6 +36,7 @@ cask "android-studio"
 cask "blender"
 cask "brave-browser"
 cask "copilot-money"
+cask "cursor"
 cask "datagrip"
 cask "docker"
 cask "expo-orbit"
@@ -48,8 +49,8 @@ cask "loom"
 cask "monitorcontrol"
 cask "notion"
 cask "obsidian"
-cask "openlens"
 cask "ollama"
+cask "openlens"
 cask "proton-mail-bridge"
 cask "protonvpn"
 cask "proxyman"
@@ -60,12 +61,12 @@ cask "streamlabs"
 cask "tailscale"
 cask "tradingview"
 cask "ultimaker-cura"
+cask "windsurf"
 cask "yubico-authenticator"
-cask "zoom"
 cask "zed"
+cask "zoom"
 # cask "postman"
 # cask "signal"
-# cask "cursor"
 # cask "telegram"
 # cask "bartender"
 # cask "chatgpt"
@@ -81,6 +82,15 @@ mas "Things", id: 904280696
 mas "Transmit", id: 1436522307
 mas "Transporter", id: 1450874784
 mas "Xcode", id: 497799835
+
+# project specific dependencies
+brew "pkg-config"
+brew "cairo"
+brew "pango"
+brew "libpng"
+brew "jpeg"
+brew "giflib"
+brew "librsvg"
 
 # Add to chandlerroth/brew as cask
 # cask https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.46-1.dmg from https://www.wacom.com/en-us/getting-started/wacom-intuos
