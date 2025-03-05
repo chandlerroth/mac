@@ -24,6 +24,7 @@ export PATH="$PATH:$HOME/.dotnet/tools"
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 export PATH="$HOME/.sst/bin":$PATH
 export PATH="$HOME/Projects/chandlerroth/taskbox/bin":$PATH
+export PATH="$HOME/Projects/enokcollective/os/bin":$PATH
 
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 
