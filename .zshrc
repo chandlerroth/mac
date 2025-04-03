@@ -40,7 +40,7 @@ alias dc="docker compose"
 alias myip="curl -s ipinfo.io/json | jq -r '.[\"ip\"]'"
 alias prlog="git --no-pager log $(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')..$(git branch --show-current) --reverse --oneline --no-decorate"
 alias gitpf="~/.git-force-pull.sh"
-alias code="zed"
+# alias code="zed"
 
 function ytd() {
     local youtube_id=$(echo "$1" | sed -E 's#(https?://)?(www\.)?youtube\.com/watch\?v=##; s#(https?://)?(www\.)?youtu\.be/##; s#(https?://)?(www\.)?youtube\.com/shorts/##; s/&.*//; s/\?.*//;')
