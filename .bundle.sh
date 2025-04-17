@@ -71,3 +71,7 @@ if ! [[ -z "$(cd ~; git status --porcelain)" ]]; then
     printf "\n"
     echo "Warning: You need to sync your home directory!"
 fi
+
+printf "\n"
+printf "Installing Poetry...\n"
+pipx install poetry
